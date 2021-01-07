@@ -1,0 +1,106 @@
+baseURL = "https://robintrayler.github.io"
+languageCode = "en"
+DefaultContentLanguage = "en"
+title = "Robin B. Trayler"
+theme = "anatole"
+summarylength = 10
+enableEmoji = true
+enableRobotsTXT = true
+
+# Enable Disqus
+#disqusShortname = ""
+
+# Google Analytics
+#googleAnalytics = "UA-123-45"
+
+# Syntax highlighting
+pygmentsCodefences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsStyle = "native"
+
+[params]
+title = "Robin B. Trayler"
+author = "Robin B. Trayler"
+#copyright = "2020-2021"
+description = "I figure out what animals eat. It's usually plants, or other animals."
+profilePicture = "images/profile.jpeg"
+keywords = ""
+favicon = "favicons/"
+
+# example ["css/custom.css"]
+customCss = []
+
+# example ["js/custom.js"]
+customJs = []
+mainSections = ["post"]
+
+images = ["images/site-feature-image.png"]
+doNotLoadAnimations = false
+
+# Form Spree Contact Form
+# contactFormAction = "https://formspree.io/f/your-form-hash-here"
+
+# Google Site Verify
+# googleSiteVerify = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+
+[params.simpleAnalytics]
+
+# enable = true
+# customurl = "https://analytics.example.com"
+
+## Math settings
+[params.math]
+enable = true  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
+use = "katex"  # options: "katex", "mathjax". default is "katex".
+
+## Social links
+# use 'fab' when brand icons, use 'fas' when standard solid icons.
+
+[[params.socialIcons]]
+icon = "fab fa-google"
+title = "google-scholar"
+url = "https://scholar.google.com/citations?user=EEGyRMEAAAAJ&hl=en"
+
+[[params.socialIcons]]
+icon = "fab fa-twitter"
+title = "Twitter"
+url = "https://twitter.com/RobinTrayler"
+
+[[params.socialIcons]]
+icon = "fas fa-envelope"
+title = "e-mail"
+url = "mailto:robintrayler@gmail.com"
+
+## Menu items
+
+[menu]
+
+  [[menu.main]]
+  name = "About"
+  identifier = "about"
+  weight = 1
+  url = "/about/"
+
+  [[menu.main]]
+  name = "Publications"
+  weight = 2
+  identifier = "publications"
+  url = "/publications/"
+
+ #[[menu.main]]
+ # name = "Teaching"
+ # identifier = "teaching"
+ # weight = 3
+ # url = "/teaching"
+
+  [[menu.main]]
+  name = "Collaborators"
+  identifier = "collaborators"
+  weight = 4
+  url = "/collaborators/"
+
+  [[menu.main]]
+  name = "Blog"
+  identifier = "blog"
+  weight = 5
+  url = "/"

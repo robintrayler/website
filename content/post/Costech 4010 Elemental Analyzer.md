@@ -1,6 +1,6 @@
 +++
 author = "Robin B. Trayler"
-title = "Changing *Costech 4010 Elemental Analyzer* Combustion Reactor"
+title = "Changing Costech 4010 Elemental Analyzer Combustion Reactor"
 date = "2021-01-08"
 description = ""
 draft = true

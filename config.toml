@@ -62,6 +62,11 @@ title = "google-scholar"
 url = "https://scholar.google.com/citations?user=EEGyRMEAAAAJ&hl=en"
 
 [[params.socialIcons]]
+icon = "fab fa-orcid"
+title = "orcid"
+url = "https://orcid.org/0000-0001-8964-4045"
+
+[[params.socialIcons]]
 icon = "fab fa-twitter"
 title = "Twitter"
 url = "https://twitter.com/RobinTrayler"
@@ -71,18 +76,19 @@ icon = "fas fa-envelope"
 title = "e-mail"
 url = "mailto:robintrayler@gmail.com"
 
-## Menu items
 
+
+## Menu items
 [menu]
 
   [[menu.main]]
-  name = "About"
+  name = "about"
   identifier = "about"
   weight = 1
   url = "/about/"
 
   [[menu.main]]
-  name = "Publications"
+  name = "publications"
   weight = 2
   identifier = "publications"
   url = "/publications/"
@@ -94,13 +100,13 @@ url = "mailto:robintrayler@gmail.com"
  # url = "/teaching"
 
   [[menu.main]]
-  name = "Collaborators"
+  name = "collaborators"
   identifier = "collaborators"
   weight = 4
   url = "/collaborators/"
 
   [[menu.main]]
-  name = "Blog"
+  name = "blog"
   identifier = "blog"
   weight = 5
   url = "/"
